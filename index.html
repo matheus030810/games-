@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <style>
+
+    *{ 
+        Margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    body{
+        background-color:rgb(115, 30, 43)
+    }
+    
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    /* CSS HEADER */
+    header{
+        padding: 40px 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    header .interface{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .logo img{
+        max-width: 50px;
+    }
+    header .menu nav ul{
+        list-style-type: none;
+    }
+    header .menu nav ul li{
+        display:inline-block;
+        margin: 0 40px;
+    }
+    header .menu nav ul li a{
+        color:white;
+        text-decoration: none;
+        transition: .2s;
+        display: inline-block;
+    }
+    .menu nav a:hover{
+        transform: scale(1.05);
+    }
+    header .btn-contato button{
+        height: 30px;
+        width: 100px;
+        font-size: 19px;
+        background-color: transparent;
+        border-radius: 20px;
+        color:aliceblue;
+        cursor:pointer;
+        transition: .5s;
+    }
+    header .btn-contato button:hover{
+        background-color:#fff;
+        color:black;
+    }
+    
+    /* Home */
+    section.home{
+        height: 100vh;
+        background-image: url(GTA\ 6\ desktop\ wallpaper\ 4k.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:#fff;
+    }  
+    .home .interface{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    } 
+    .home .txt-home h1{
+        font-size: 4em;
+        line-height: 60px;
+        font-weight: 200;
+    }
+    .home .txt-home h1 span{
+        font-weight: 800;
+        display: block;
+    }
+    .home .txt-home p{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+    .home .txt-home p span{
+        display: block;
+    }
+    section.Lançamentos{
+        padding:80px 0;
+    }
+    .Lançamentos .item-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 70px;
+    }
+    .Lançamentos .item-conteiner .img-itens img{
+        max-width: 420px;
+        border-radius: 20px;
+    }
+    .Lançamentos .item-conteiner .txt-item h3{
+        font-size: 3em;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .item-conteiner .txt-item h3 span{
+        font-weight: 300;
+    }
+</style>
+
+
+</head>
+<body>
+    <header>
+          <div class="interface">
+            <section class="logo">
+                <img src="games-lover-svgrepo-com.svg">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul>
+                         <li><a href="games.html">Lançamentos</a></li>
+                        <li><a href="curiosidades.html">Curiosidades</a></li>
+                        <li><a href="Críticas.html">Críticas</a></li>
+                     </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="Contato.html">
+                    <button>contato</button>
+                </a>
+            </section>
+
+          </div>
+        </header>
+    
+    <section class="home">
+      <div class="interface">
+        <div class="txt-home">
+            <h1>THE BEST GAMES
+                <span>Are they really the best?</span></h1>
+            </div>
+    </section>
+
+        <section id="Lançamentos" class="Lançamentos">
+        <div class="interface">
+            <article class="interface">
+                <article class="item-conteiner">
+                    <div class="txt-item">
+                        <h3><span>Prince of Persia: The Lost Crown</span><br></h3>
+                     <p>Prince of Persia: The Lost Crown é um jogo de plataforma 2D da franquia Ubisoft,
+                         com uma pitadinha de metroidvania na estrutura.
+                        Inspirado em animes, o título é uma aventura inédita e moderna que marca o retorno da saga persa após 13 anos,
+                         apresentando muitos chefes e desafios.
+                     </p>
+                     </div>
+
+                     <div class="img-itens">
+                        <img src="prince of persia the lost crown.jpg" alt="">
+                        </div>
+                        </article>
+
+                        <article class="item-conteiner">
+                          <div class="img-itens">
+                            <img src="The last of us.jpg" alt="">
+                            </div>
+
+                            <hr>
+
+                            <div class="txt-item">
+                             <h3><span>The Last of Us Part II Remastered</span><br></h3>
+                             <p>Curiosamente, a primeira aposta da PlayStation em 2024
+                                 foi uma remasterização de The Last of Us Part II, originalmente
+                                  lançado em 2020.
+                                  A nova versão traz conteúdo adicional inédito,
+                                   como um modo roguelike e fases cortadas jogáveis, mas sem tantas
+                                    melhorias significativas.</p>
+                                    </div>
+                                </article>
+                                    
+
+                                    <article class="item-conteiner">
+                                        <div class="txt-item">
+                                            
+                                            <h3><span>Tekken 8</span><br></h3>
+                                            <p>Pancadaria também marcou o início de 2024,
+                                                 com o retorno barulhento da franquia de luta da Bandai Namco.
+                                                  Com 32 lutadores no lançamento, Tekken 8 é descrito como a “nova geração” da
+                                                   série, com visuais repaginados,
+                                                   mais realismo e novas mecânicas de física para os cenários.</p>
+                                            </div>
+                                            <div class="img-itens">
+                                                <img src="tekken 8.jpg" alt="">
+                                                </div>
+                                                </article>
+                                            </div>
+                                            </section>
+
+</body>
+</html>
